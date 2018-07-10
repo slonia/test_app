@@ -5,7 +5,8 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
-    raise 'exception'
+    @users.pry
+    # raise 'exception'
   end
 
   # GET /users/1
